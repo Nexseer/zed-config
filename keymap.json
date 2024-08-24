@@ -1,0 +1,104 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "bindings": {
+      "ctrl-shift-p": "command_palette::Toggle",
+      "ctrl-shift-k": "zed::OpenKeymap",
+      "ctrl-shift-x": "zed::Extensions",
+      "f11": "zed::ToggleFullScreen",
+      "ctrl-alt-n": "task::Spawn",
+      "ctrl-alt-r": "task::Rerun",
+      "ctrl-alt-o": "zed::OpenLocalTasks",
+      "ctrl-\\": "workspace::NewCenterTerminal",
+      "ctrl-t": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "shift shift": "workspace::NewSearch",
+      "ctrl-n": "workspace::NewFile",
+      "ctrl-s": "workspace::Save",
+      "ctrl-?": "assistant::ToggleFocus"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-a": "editor::SelectAll",
+      "ctrl-w": "pane::CloseActiveItem",
+      "ctrl-y": "editor::Redo",
+      "alt-up": "editor::MoveLineUp",
+      "alt-down": "editor::MoveLineDown",
+      "alt-enter": "editor::ToggleCodeActions"
+    }
+  },
+  {
+    "context": "Editor && VimControl && !VimWaiting && !menu",
+    "bindings": {
+      "n": "search::SelectNextMatch",
+      "N": "search::SelectPrevMatch",
+      "H": "pane::ActivatePrevItem",
+      "L": "pane::ActivateNextItem",
+      "K": "editor::Hover",
+      "g h": "editor::MoveToBeginningOfLine",
+      "g l": "editor::MoveToEndOfLine",
+      "g b": "pane::GoBack",
+      "space c f": "editor::Format",
+      "space c r": "editor::Rename",
+      "space e": "project_panel::ToggleFocus",
+      "space f d": "diagnostics::Deploy",
+      "space f f": "file_finder::Toggle",
+      "space f p": "projects::OpenRecent",
+      "space f s": "outline::Toggle",
+      "space g [": "editor::GoToPrevHunk",
+      "space g ]": "editor::GoToHunk",
+      "space g b": "editor::ToggleGitBlame",
+      "space g d": "editor::ToggleHunkDiff",
+      "space g r": "editor::RevertSelectedHunks",
+      "space m o": "markdown::OpenPreview",
+      "space m p": "markdown::OpenPreviewToTheSide",
+      "space o": "tab_switcher::Toggle",
+      "space w c": "pane::CloseAllItems",
+      "space w h": "pane::SplitRight",
+      "space w v": "pane::SplitDown"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "j": "menu::SelectNext",
+      "k": "menu::SelectPrev",
+      "a": "project_panel::NewFile",
+      "A": "project_panel::NewDirectory",
+      "c": "project_panel::Copy",
+      "d": "project_panel::Delete",
+      "p": "project_panel::Paste",
+      "r": "project_panel::Rename",
+      "x": "project_panel::Cut",
+      "y p": "project_panel::CopyPath",
+      "y r": "project_panel::CopyRelativePath"
+    }
+  },
+  {
+    "context": "Dock || Terminal || Editor",
+    "bindings": {
+      "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
+      "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
+      "ctrl-k": ["workspace::ActivatePaneInDirection", "Up"],
+      "ctrl-j": ["workspace::ActivatePaneInDirection", "Down"]
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-t": "workspace::ToggleBottomDock"
+    }
+  }
+]
