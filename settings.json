@@ -1,0 +1,160 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-20240620"
+    },
+    "version": "2"
+  },
+
+  "proxy": "http://127.0.0.1:7890",
+  "vim_mode": true,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Base16 Snazzy"
+  },
+
+  "ui_font_size": 22,
+  "ui_font_family": "Monaco",
+  "buffer_font_size": 26,
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_weight": 500,
+  "relative_line_numbers": true,
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "typeHints": true,
+    "parameterHints": true,
+    "chainingHints": true
+  },
+  "indent_guides": {
+    "coloring": "indent_aware"
+  },
+  "soft_wrap": "editor_width",
+
+  "format_on_save": "on",
+  "vertical_scroll_margin": 6,
+  "restore_on_startup": "none",
+  "extend_comment_on_newline": false,
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/vendor",
+    "**/.tmp*"
+  ],
+  "terminal": {
+    "font_family": "Cascadia Code NF",
+    "toolbar": {
+      "title": false
+    },
+    "copy_on_select": true
+  },
+  "git": {
+    "enabled": true,
+    "autoFetch": true,
+    "autoFetchInterval": 300,
+    "autoFetchOnFocus": true,
+    "autoFetchOnWindowChange": true,
+    "autoFetchOnBuild": true,
+    "git_status": true,
+    "autoFetchOnBuildEvents": ["build", "run", "debug"],
+    "autoFetchOnBuildEventsDelay": 1500,
+    "autoFetchOnBuildDelay": 1500,
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true,
+      "position": "right"
+    }
+  },
+
+  "languages": {
+    "Go": {
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "TSX": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      },
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+        "source.fixAll.eslint": true
+      }
+    },
+    "JavaScript": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      },
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "TypeScript": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      },
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+        "source.fixAll.eslint": true
+      }
+    }
+  },
+
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "checkOnSave": {
+          // rust-analyzer.check.command (default: "check")
+          // "command": "clippy"
+        }
+      }
+    },
+    "eslint": {
+      "settings": {
+        "codeActionOnSave": {
+          "rules": ["import/order"]
+        }
+      }
+    }
+  },
+
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+
+  "features": {
+    "inline_completion_provider": "supermaven"
+  }
+}
