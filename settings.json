@@ -24,7 +24,7 @@
   },
 
   "ui_font_size": 22,
-  "ui_font_family": "Monaco",
+  "ui_font_family": "Cascadia Mono PL",
   "buffer_font_size": 26,
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_weight": 500,
