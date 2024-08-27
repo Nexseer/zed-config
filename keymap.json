@@ -25,6 +25,7 @@
       "shift shift": "workspace::NewSearch",
       "ctrl-n": "workspace::NewFile",
       "ctrl-s": "workspace::Save",
+      "ctrl-shift-s": "workspace::SaveAs",
       "ctrl-?": "assistant::ToggleFocus"
     }
   },
@@ -50,13 +51,14 @@
       "g h": "editor::MoveToBeginningOfLine",
       "g l": "editor::MoveToEndOfLine",
       "g b": "pane::GoBack",
+      "g r": "editor::GoToTypeDefinition",
+      "g i": "editor::GoToImplementation",
       "space c f": "editor::Format",
       "space c r": "editor::Rename",
       "space e": "project_panel::ToggleFocus",
-      "space f d": "diagnostics::Deploy",
-      "space f f": "file_finder::Toggle",
+      "space f o": "outline::Toggle",
       "space f p": "projects::OpenRecent",
-      "space f s": "outline::Toggle",
+      "space f q": "file_finder::Toggle",
       "space g [": "editor::GoToPrevHunk",
       "space g ]": "editor::GoToHunk",
       "space g b": "editor::ToggleGitBlame",
@@ -65,6 +67,7 @@
       "space m o": "markdown::OpenPreview",
       "space m p": "markdown::OpenPreviewToTheSide",
       "space o": "tab_switcher::Toggle",
+      "space p d": "diagnostics::Deploy",
       "space w c": "pane::CloseAllItems",
       "space w h": "pane::SplitRight",
       "space w v": "pane::SplitDown"
