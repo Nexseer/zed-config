@@ -38,19 +38,22 @@
   },
   "inlay_hints": {
     "enabled": true,
-    "typeHints": true,
-    "parameterHints": true,
-    "chainingHints": true
+    "font_family": "Consolas"
   },
   "indent_guides": {
     "coloring": "indent_aware"
   },
   "soft_wrap": "editor_width",
 
+  "tab_size": 2,
   "format_on_save": "on",
   "vertical_scroll_margin": 6,
   "restore_on_startup": "none",
   "extend_comment_on_newline": false,
+  "file_types": {
+    "C++": ["c", "h", "cpp", "hpp"],
+    "*.mdx": ["markdown"]
+  },
   "file_scan_exclusions": [
     "**/.git",
     "**/.svn",
@@ -63,6 +66,24 @@
     "**/vendor",
     "**/.tmp*"
   ],
+  "search.exclude": {
+    "**/*.snap": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/temp": true,
+    "**/yarn.lock": true,
+    "**/CHANGELOG*": true,
+    "**/LICENSE*": true
+  },
   "terminal": {
     "font_family": "Cascadia Code NF",
     "toolbar": {
@@ -89,10 +110,21 @@
   },
 
   "languages": {
+    "C++": {
+      "formatter": {
+        "external": {
+          "command": "clang-format",
+          "arguments": ["-style=file"]
+        }
+      }
+    },
     "Go": {
       "code_actions_on_format": {
         "source.organizeImports": true
       }
+    },
+    "Rust": {
+      "tab_size": 4
     },
     "TSX": {
       "formatter": {
