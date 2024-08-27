@@ -83,7 +83,7 @@
     "autoFetchOnBuildDelay": 1500,
     "git_gutter": "tracked_files",
     "inline_blame": {
-      "enabled": true,
+      "enabled": false,
       "position": "right"
     }
   },
