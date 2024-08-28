@@ -22,11 +22,7 @@
   {
     "context": "Workspace",
     "bindings": {
-      "shift shift": "workspace::NewSearch",
-      "ctrl-n": "workspace::NewFile",
-      "ctrl-s": "workspace::Save",
-      "ctrl-shift-s": "workspace::SaveAs",
-      "ctrl-?": "assistant::ToggleFocus"
+      "shift shift": "workspace::NewSearch"
     }
   },
   {
@@ -34,9 +30,6 @@
     "bindings": {
       "ctrl-a": "editor::SelectAll",
       "ctrl-w": "pane::CloseActiveItem",
-      "ctrl-y": "editor::Redo",
-      "alt-up": "editor::MoveLineUp",
-      "alt-down": "editor::MoveLineDown",
       "alt-enter": "editor::ToggleCodeActions"
     }
   },
@@ -67,8 +60,10 @@
       "space o": "tab_switcher::Toggle",
       "space p d": "diagnostics::Deploy",
       "space w c": "pane::CloseAllItems",
-      "space w h": "pane::SplitRight",
-      "space w v": "pane::SplitDown"
+      "space w k": "pane::SplitUp",
+      "space w j": "pane::SplitDown",
+      "space w h": "pane::SplitLeft",
+      "space w l": "pane::SplitRight"
     }
   },
   {
