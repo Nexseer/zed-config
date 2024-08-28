@@ -43,8 +43,6 @@
   {
     "context": "Editor && VimControl && !VimWaiting && !menu",
     "bindings": {
-      "n": "search::SelectNextMatch",
-      "N": "search::SelectPrevMatch",
       "H": "pane::ActivatePrevItem",
       "L": "pane::ActivateNextItem",
       "K": "editor::Hover",
