@@ -702,7 +702,7 @@ Zed AI 通过可扩展的、以文本为中心的方法将 LLM 直接引入您�
 
 4. 点击 `Send`，同意相关协议即可使用
 
-![](Pasted%20image%2020240822152835.png)
+![image](https://github.com/user-attachments/assets/82b6199d-d6b6-4426-8fcd-ddbb3a99f9ed)
 
 ### Assistant Panel
 
@@ -712,7 +712,7 @@ Zed AI 通过可扩展的、以文本为中心的方法将 LLM 直接引入您�
 - **`Assistant`**: AI 助手提供的响应和建议。
 - **`System`**: 系统级别的指令或配置，用于设置对话上下文和提供背景信息。
 
-![](Pasted%20image%2020240824211941.png)
+![image](https://github.com/user-attachments/assets/b2aed8de-7448-42f8-b97f-5f980e120835)
 
 👉 命令详情：[Commands - Zed](https://zed.dev/docs/assistant/commands)
 
@@ -727,11 +727,11 @@ Zed AI 通过可扩展的、以文本为中心的方法将 LLM 直接引入您�
 
 点击按钮进入 Prompt Library
 
-![](Pasted%20image%2020240824213606.png)
+![image](https://github.com/user-attachments/assets/e5685a24-f6c6-4c07-b065-b18bd1328b6f)
 
 设置添加 Prompt：👉 [Cursor Directory](https://cursor.directory/) 进行参考
 
-![](Pasted%20image%2020240824213751.png)
+![image](https://github.com/user-attachments/assets/fc4fb973-efff-44b3-a8fa-7a7c2af714ff)
 
 在 Assistant Panel 中 输入 `/prompt` + `自定义 Prompt` 即可快速调用！😘
 
