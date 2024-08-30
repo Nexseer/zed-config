@@ -2,6 +2,8 @@
 
 👉 [English](README.md) | 简体中文
 
+![Logo](./imgs/zed_logo.png)
+
 - [一、Zed 是什么？🧐](#一zed-是什么)
 - [二、为什么选择 Zed ？😎](#二为什么选择-zed-)
   - [1. Fast ⚡](#1-fast-)
@@ -30,6 +32,8 @@
     - [Prompting](#prompting)
 - [五、协作 💥](#五协作-)
 - [六、插件商城 🔌](#六插件商城-)
+
+![zed](./imgs/zed.png)
 
 # 一、Zed 是什么？🧐
 
