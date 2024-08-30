@@ -582,6 +582,7 @@ cs<existing><desired>
 | `<space> e`   | 打开文件资源管理器               |
 | `<space> f o` | 查找文件大纲                     |
 | `<space> f p` | 打开最近的项目                   |
+| `<space> f q` | 快速打开项目下的文件             |
 | `<space> g [` | 跳转到上一个 Git 更改            |
 | `<space> g ]` | 跳转到下一个 Git 更改            |
 | `<space> g b` | 切换`git blame`                  |
