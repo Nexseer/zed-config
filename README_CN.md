@@ -170,7 +170,7 @@ Zed Editor 内置格式化功能，通过语言服务器协议（LSP）来实现
 // 将特定的文件扩展名与它们对应的文件类型进行关联
 "file_types": {
 	"C++": ["c", "h", "cpp", "hpp"],
-    "*.mdx": ["markdown"]
+  "*.mdx": ["markdown"]
 },
 // 文件扫描时要排除的文件和目录模式
 "file_scan_exclusions": [
@@ -246,6 +246,8 @@ Zed Editor 内置格式化功能，通过语言服务器协议（LSP）来实现
   }
 },
 ```
+
+> 需要手动执行 git pull 命令来合并更改 ⛔
 
 ### 开发配置
 
