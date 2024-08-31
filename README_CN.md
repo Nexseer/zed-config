@@ -689,7 +689,7 @@ Zed editor 支持以下：
 - Ollama
 - OpenAI
 
-**Zed AI 目前可以免费使用！！**🎉
+🎉 **Zed AI 目前可以免费使用！！**
 
 👉 [Introducing Zed AI](https://zed.dev/blog/zed-ai)
 
