@@ -699,7 +699,7 @@ Zed AI integrates LLMs directly into your editor with an extensible, text-centri
 3. Select the desired model.
 4. Click `Send` and agree to the terms to start using it.
 
-![](Pasted%20image%2020240822152835.png)
+![image](https://github.com/user-attachments/assets/53cc4ac0-5b99-44f8-9e80-be0718984a89)
 
 ### Assistant Panel
 
@@ -709,7 +709,7 @@ In the Assistant Panel, you can interact with large language models.
 - **`Assistant`**: The responses and suggestions provided by the AI assistant.
 - **`System`**: System-level commands or configurations that set the context of the conversation and provide background information.
 
-![](Pasted%20image%2020240824211941.png)
+![image](https://github.com/user-attachments/assets/17fc1bca-5cf3-49ff-afd4-600e88fb6db0)
 
 👉 Command details: [Commands - Zed](https://zed.dev/docs/assistant/commands)
 
@@ -724,11 +724,11 @@ In the Assistant Panel, you can interact with large language models.
 
 Click the button to access the Prompt Library.
 
-![](Pasted%20image%2020240824213606.png)
+![image](https://github.com/user-attachments/assets/ecfa957d-4b9b-4138-9180-f5953e922b41)
 
 To add a custom prompt, refer to: 👉 [Cursor Directory](https://cursor.directory/)
 
-![](Pasted%20image%2020240824213751.png)
+![image](https://github.com/user-attachments/assets/b5de4b40-ebfa-444f-8a12-de5648784127)
 
 In the Assistant Panel, type `/prompt` followed by your custom prompt to quickly call it! 😘
 
