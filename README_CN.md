@@ -739,6 +739,9 @@ Inline Assistant 是一种集成在代码编辑器中的实时辅助工具，它
 
 总之，Inline Assistant 是一种能够显著提升编程效率的工具，通过无缝集成到代码编辑器中，提供上下文相关的帮助，让开发者更加专注于编写高质量的代码。
 
+![image](https://github.com/user-attachments/assets/6ccb197e-4869-41c7-bf31-193544488358)
+
+
 ### Prompting
 
 点击按钮进入 Prompt Library
