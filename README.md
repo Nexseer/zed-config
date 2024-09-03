@@ -29,6 +29,7 @@
   - [2. AI Assistant ⭐](#2-ai-assistant-)
     - [How to Enable Zed AI?](#how-to-enable-zed-ai)
     - [Assistant Panel](#assistant-panel)
+    - [Inline Assistant](#inline-assistant)
     - [Prompting](#prompting)
 - [V. Collaboration 💥](#v-collaboration-)
 - [VI. Plugin Marketplace 🔌](#vi-plugin-marketplace-)
@@ -719,6 +720,14 @@ In the Assistant Panel, you can interact with large language models.
 | `ctrl enter`   | Confirm and send                                          |
 | `ctrl shift >` | Insert selected text as a reference into the AI assistant |
 | `alt m`        | Toggle model selector in the assistant panel              |
+
+### Inline Assistant
+
+Inline Assistant is an integrated real-time assistance tool within code editors. It analyzes the user's code and comments to understand the user's programming intent and specific challenges encountered. Based on this information, it provides context-aware assistance. This integration allows developers to receive the necessary help without leaving the editor environment, thereby improving programming efficiency.
+
+When you select code in the editor and press `Ctrl + Enter`, Inline Assistant is activated. This action triggers the tool to analyze the selected code and offer real-time suggestions or solutions. This feature helps developers quickly solve problems, optimize code, or understand complex programming concepts.
+
+In summary, Inline Assistant is a tool that can significantly enhance programming efficiency by seamlessly integrating into the code editor, offering context-aware assistance, and allowing developers to stay focused on writing high-quality code.
 
 ### Prompting
 

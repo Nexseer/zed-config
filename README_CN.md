@@ -29,6 +29,7 @@
   - [2. AI Assistant ⭐](#2-ai-assistant-)
     - [如何开启Zed AI ？](#如何开启zed-ai-)
     - [Assistant Panel](#assistant-panel)
+    - [Inline Assistant](#inline-assistant)
     - [Prompting](#prompting)
 - [五、协作 💥](#五协作-)
 - [六、插件商城 🔌](#六插件商城-)
@@ -729,6 +730,14 @@ Zed AI 通过可扩展的、以文本为中心的方法将 LLM 直接引入您�
 | `ctrl enter`   | 确认发送                       |
 | `ctrl shift >` | 将选中文本作为引用插入 AI 助手 |
 | `alt m`        | 助手面板切换模型选择器         |
+
+### Inline Assistant
+
+Inline Assistant 是一种集成在代码编辑器中的实时辅助工具，它通过分析用户的代码和注释，理解用户的编程意图和遇到的具体问题。然后，它根据这些信息提供上下文相关的帮助。这样的集成方式允许开发者无需离开编辑器环境，即可获得必要的帮助，从而提高编程效率。
+
+当你在编辑器中选中代码后，按下 `Ctrl + Enter` 即可激活 Inline Assistant。这种操作将触发工具对选中代码进行分析，并提供实时的建议或解决方案。这有助于开发者快速解决问题、优化代码或理解某些复杂的编程概念。
+
+总之，Inline Assistant 是一种能够显著提升编程效率的工具，通过无缝集成到代码编辑器中，提供上下文相关的帮助，让开发者更加专注于编写高质量的代码。
 
 ### Prompting
 
