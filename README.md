@@ -729,6 +729,8 @@ When you select code in the editor and press `Ctrl + Enter`, Inline Assistant is
 
 In summary, Inline Assistant is a tool that can significantly enhance programming efficiency by seamlessly integrating into the code editor, offering context-aware assistance, and allowing developers to stay focused on writing high-quality code.
 
+![image](https://github.com/user-attachments/assets/6ccb197e-4869-41c7-bf31-193544488358)
+
 ### Prompting
 
 Click the button to access the Prompt Library.
