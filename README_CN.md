@@ -2,6 +2,8 @@
 
 👉 [English](README.md) | 简体中文
 
+视频解析：【探索 Zed 编辑器：代码编辑器的未来】 https://www.bilibili.com/video/BV1uvpseiEjk/?share_source=copy_web&vd_source=d33ea63980cbc6d87e0f6a8d93a6b9dc
+
 ![Logo](./imgs/zed_logo.png)
 
 - [一、Zed 是什么？🧐](#一zed-是什么)
