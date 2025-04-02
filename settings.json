@@ -10,7 +10,7 @@
   "assistant": {
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
+      "model": "claude-3-7-sonnet-latest"
     },
     "version": "2"
   },
@@ -23,9 +23,9 @@
   },
 
   "ui_font_size": 22,
-  "ui_font_family": "MonoLisa",
+  "ui_font_family": "Cascadia Code",
   "buffer_font_size": 28,
-  "buffer_font_family": "Cascadia Mono NF",
+  "buffer_font_family": "JetBrains Mono",
   "buffer_font_weight": 500,
   "relative_line_numbers": true,
   "tab_bar": {
@@ -95,6 +95,9 @@
     "font_family": "Cascadia Code NF",
     "toolbar": {
       "title": false
+    },
+    "shell": {
+      "program": "fish"
     },
     "copy_on_select": true
   },
@@ -197,6 +200,6 @@
   },
 
   "features": {
-    "inline_completion_provider": "supermaven"
+    "edit_prediction_provider": "zed"
   }
 }
